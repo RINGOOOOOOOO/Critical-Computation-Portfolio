@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: pixel;
-  src: url(https://cdn.glitch.global/481b4b69-b83d-4a14-9b85-4822045e32d4/DePixelBreit.ttf?v=1694182031217);
+  src: url("asset/dogicapixel.ttf");
 }
 
 @font-face {
@@ -24,7 +24,7 @@ body {
 }
 
 body1 {
-  font-family: "StickiesRegular";
+  font-family: "Roboto Mono", monospace, sans-serif;
 }
 
 div {
@@ -40,62 +40,62 @@ li {
 h1 {
   font-family: pixel;
   color: #87cefa; /*   lanse */
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 h2 {
   color: #f5b7b1; /*   fense */
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 h3 {
   font-family: pixel;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 h5 {
-  font-family: "StickiesRegular";
+  font-family: "Roboto Mono", monospace, sans-serif;
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   line-height: 0.5;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  line-height: 3;
   color: #f5b7b1;
 } /* 粉色 */
 
 p1 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: black;
   line-height: 1.7;
 }
 
 p3 {
   font-family: pixel;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #87cefa; /*   lanse */
   line-height: 2.5;
 }
 
 p4 {
-  font-family: "StickiesRegular";
-  font-size: 1.3rem;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 1.2rem;
   color: white;
   line-height: 1.5;
 }
 
 p5 {
-  font-family: "StickiesRegular";
-  font-size: 1.3rem;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 1.2rem;
   color: white;
   line-height: 4;
 }
 
 p6 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 2.5;
   color: #f5b7b1;
 } /* 粉色 */
@@ -146,7 +146,7 @@ a.white {
 
 a.pink {
   color: #f5b7b1;
-  font-size: 1em;
+  font-size: 0.9em;
   text-decoration: none;
   transition: color 0.3s ease;
   transition: font-size 0.3s ease;
@@ -158,11 +158,11 @@ a:hover {
 
 a.pink :hover {
   color: #ff5733;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 li {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #87cefa;
   line-height: 1.5;
   
