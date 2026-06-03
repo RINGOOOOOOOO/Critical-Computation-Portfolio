@@ -1,0 +1,13 @@
+@font-face {
+  font-family: pixel;
+  src: url(https://cdn.glitch.global/481b4b69-b83d-4a14-9b85-4822045e32d4/DePixelBreit.ttf?v=1694182031217);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}

@@ -1,0 +1,187 @@
+/* CSS files add styling rules to your content */
+
+@font-face {
+  font-family: pixel;
+  src: url(https://cdn.glitch.global/481b4b69-b83d-4a14-9b85-4822045e32d4/DePixelBreit.ttf?v=1694182031217);
+}
+
+@font-face {
+  font-family: "StickiesRegular";
+  src: url("https://cdn.glitch.global/6c21bf71-589e-4a17-b7ad-dcb6c1f918c7/Queensides-3z7Ey.ttf?v=1697598221822");
+}
+
+@font-face {
+  font-family: "sd_auto_pilot";
+  src: url("https://cdn.glitch.global/6c21bf71-589e-4a17-b7ad-dcb6c1f918c7/sd_auto_pilot.ttf?v=1699640204960");
+}
+
+body {
+  font-family: pixel;
+  color: #ffb6c1;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+body1 {
+  font-family: "StickiesRegular";
+}
+
+div {
+  font-family: pixel;
+  /*   color: #f9fc9d; */
+}
+
+li {
+  font-family: pixel;
+  color: #f5b7b1;
+}
+
+h1 {
+  font-family: pixel;
+  color: #87cefa; /*   lanse */
+  font-size: 1.6rem;
+}
+
+h2 {
+  color: #f5b7b1; /*   fense */
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: pixel;
+  color: black;
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-family: "StickiesRegular";
+  color: white;
+  font-size: 2.5rem;
+  line-height: 0.5;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #f5b7b1;
+} /* 粉色 */
+
+p1 {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.7;
+}
+
+p3 {
+  font-family: pixel;
+  font-size: 1rem;
+  color: #87cefa; /*   lanse */
+  line-height: 2.5;
+}
+
+p4 {
+  font-family: "StickiesRegular";
+  font-size: 1.3rem;
+  color: white;
+  line-height: 1.5;
+}
+
+p5 {
+  font-family: "StickiesRegular";
+  font-size: 1.3rem;
+  color: white;
+  line-height: 4;
+}
+
+p6 {
+  font-size: 1rem;
+  line-height: 2.5;
+  color: #f5b7b1;
+} /* 粉色 */
+
+nav {
+  width: 20%;
+  padding: 0.5rem;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0.5rem;
+}
+
+body1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main1 {
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+a {
+  color: #87cefa;
+}
+
+a.black {
+  color: black;
+}
+
+a.white {
+  color: white;
+}
+
+a.pink {
+  color: #f5b7b1;
+  font-size: 1em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  transition: font-size 0.3s ease;
+}
+
+a:hover {
+  color: #ff5733; 
+}
+
+a.pink :hover {
+  color: #ff5733;
+  font-size: 1.5em;
+}
+
+li {
+  font-size: 1rem;
+  color: #87cefa;
+  line-height: 1.5;
+  
+}
+
+.fullwidth {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+  }
+  body {
+    flex-direction: column;
+  }
+}
